@@ -47,5 +47,14 @@ git log
 ```bash
 git show (id commit)
 ```
-* Para 
+
+* Para cambiar el nombre de owner
+```bash
+git branch -M nuevo nombre
+```
+
+* Para subir los cambios a Github
+```bash
+git push origin main
+```
 
