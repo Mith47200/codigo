@@ -39,8 +39,13 @@ git commit -m "commit"
 git commit -m "commit"
 ```
 
-* Ver historial de commits
-- Git log retorna un id, para poder ver los cambios realizados en ese commit
+* Ver historial de commits, Git log retorna un id, para poder ver los cambios realizados en ese commit
 ```bash
 git log
 ```
+* Para ver esos cambios
+```bash
+git show (id commit)
+```
+* Para 
+
