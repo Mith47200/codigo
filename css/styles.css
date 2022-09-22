@@ -65,7 +65,7 @@ body {
 /* selectores de id */
 
 #temas {
-    display: none;
+    display: block;
 }
 
 .formulario {

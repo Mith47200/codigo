@@ -4,17 +4,17 @@
 
 .padre {
     display: flex;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     /* esto respeta el ancho de la pantalla y si un elemento sobrepasa el tamaño lo manda para abajo*/
     flex-wrap: wrap;
-    margin: 0;
-    padding: 0;
-    justify-content: center;
+    /*permite alinear elementos en horizontal */
+    justify-content: space-between;
+    height: 100vh;
+    align-items: center;
 }
 
 .hijo {
     width: 20%;
-    height: 300px;
-    border: solid 2px red;
+    height: 100px;
+    border: solid 1px red;
     background-color: white;
 }
