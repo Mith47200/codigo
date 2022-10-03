@@ -1,5 +1,7 @@
 /* selectores  */
-
+*{
+    box-sizing: border-box;
+}
 /* selectores de elemento */
 h1 {
     text-align: center;
@@ -46,6 +48,27 @@ body {
     padding: 10px;
     margin: 20px;
     box-sizing: border-box;
+    width: 80%;
+    min-width: 200px;
+    position:relative;
+}
+.box > img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    bottom: 0;
+}
+.padrebox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0px auto;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 /*seudo clases*/
@@ -65,7 +88,14 @@ body {
 /* selectores de id */
 
 #temas {
-    display: block;
+    display:block;
+}
+#temas > ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 200px;
+    gap: 20px;
 }
 
 .formulario {
@@ -82,3 +112,19 @@ body {
     padding-left: 15px;
 }
 
+@media (min-width: 600px)  {
+    .box {
+        width: 40%;
+    }
+    #temas > ul {
+        height: auto;
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 900px) {
+    .box {
+        width: 30%;
+    }
+}
