@@ -100,3 +100,44 @@ input[type="radio"]:checked:after {
     color: var(--text-big-color);
     text-align: right;
 }
+.section-buttons{
+    background-color: var(--extra-color);
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 12px;
+}
+.section-buttons div {
+    display: flex;
+    justify-content: space-between;
+
+}
+.section-buttons button {
+    background-color: var(--bg-number-buttons);
+    color:var(--secondary-color);
+    width: 90px;
+    height: 45px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    font-size: 1.5em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    font-weight: 700;
+    font-family:"League Spartan", sans-serif;
+    cursor: pointer;
+}
+.btn-equal{
+    background-color:var(--bg-equal) !important;
+    color: #fff !important;
+}
+.btn-blue {
+    background-color: var(--bg-del) !important;
+    color: #fff !important;
+    width: 100%;
+}
+.section-buttons div button:hover {
+    background-color: #fff;
+  }
+.btn-big{
+    width: 200px !important;
+}
